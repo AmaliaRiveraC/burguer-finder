@@ -1,7 +1,7 @@
 const data = [
     {
 		"name": "Goethe-Institut Mexiko",
-		"img": "../assets/img/GIMexiko.jpg",
+		"img": "./img/lamge_1_1.png",
         "address": "Tonalá 43, Roma Nte., 06700 Ciudad de México, CDMX",
         "category": "Mexicana",
 		"seats": "50",
@@ -12,7 +12,7 @@ const data = [
     },
     {
 		"name": "Huset",
-		"img": "../assets/img/huset_roma.jpg",
+		"img": "./img/lamge_1_2.png",
         "address": "Colima 256, Roma Nte., 06700 Ciudad de México, CDMX",
         "category": "Gourmet",
 		"seats": "30",

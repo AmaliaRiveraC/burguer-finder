@@ -1,4 +1,5 @@
 import React from 'react';
+import img from '../img/banner_home.png';
 
 
 const MainComponent = () => {
@@ -6,7 +7,7 @@ const MainComponent = () => {
         <div>
             <h1>Title</h1>
             <p>Subtitle</p>
-            <img src="img/banner_home.png" alt="dummy-image" />
+            <img src={img} alt="dummy-image" />
         </div>
     )
 };

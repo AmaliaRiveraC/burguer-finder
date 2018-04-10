@@ -8,7 +8,7 @@ const Home = () => {
     return(
         <div>
             < MainComponent />
-            {Data.map(item=> < CardRestaurant />
+            {Data.map(item=> < CardRestaurant name={item.name} address={item.address} img={item.img}/>
 )}
                     </div> 
         
